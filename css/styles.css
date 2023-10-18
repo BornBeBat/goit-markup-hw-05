@@ -16,6 +16,8 @@ body {
   background-color: var(--main-background-color);
 }
 
+/* =================================RESET====================== */
+
 h1,
 h2,
 h3,
@@ -33,6 +35,16 @@ ul {
 img {
   display: block;
 }
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* =================================/RESET====================== */
+
+/* =============================COMMON==================== */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -52,12 +64,6 @@ img {
   padding: 0 15px;
 }
 
-.list {
-  list-style: none;
-}
-.link {
-  text-decoration: none;
-}
 .main-title {
   color: var(--main-title-color);
   text-align: center;
@@ -83,7 +89,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-/* =============================COMMON==================== */
+/* =============================/COMMON==================== */
 
 /* =============================HEADER==================== */
 .header {
