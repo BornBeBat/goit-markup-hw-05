@@ -746,4 +746,23 @@ img {
 .modal-link {
   color: var(--logo-color);
 }
+
+.modal-form-btn {
+  display: block;
+  margin: 0 auto;
+  width: 169px;
+  height: 56px;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+
+  color: var(--main-background-color);
+  cursor: pointer;
+  background-color: var(--logo-color);
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 /* =========================================/MODAL================================== */
