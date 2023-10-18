@@ -445,6 +445,58 @@ img {
 .footer .icon {
   fill: var(--secondary-background-color);
 }
+.footer .form-container {
+  margin-left: 80px;
+}
+.footer .form-text {
+  color: var(--main-background-color);
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.footer .footer-form {
+  display: flex;
+  gap: 24px;
+}
+.footer .form-input {
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.48px;
+  padding-left: 16px;
+
+  width: 264px;
+  height: 40px;
+  border: 1px solid var(--main-background-color);
+  color: var(--main-background-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.footer .form-input::placeholder {
+  color: var(--main-background-color);
+}
+.footer .form-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  color: var(--main-background-color);
+  cursor: pointer;
+  background-color: var(--logo-color);
+  border: none;
+  border-bottom: 4px;
+}
+.footer .form-icon {
+  margin-left: 16px;
+}
 /* ========================================/FOOTER============================ */
 
 /* ========================================PORTFOLIO============================== */
@@ -593,75 +645,5 @@ img {
 .button-close:focus .icon {
   fill: var(--main-background-color);
 }
-.modal-title {
-  color: var(--main-title-color);
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-  margin-bottom: 16px;
-}
-.modal-text {
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.17; /* 116.667% */
-  letter-spacing: 0.48px;
-  color: var(--LIGHT-SLATE);
-}
-.modal-text input[type="checkbox"] {
-  margin-right: 8px;
-}
 
-.modal-text.accept {
-  display: inline-block;
-  margin-bottom: 24px;
-}
-.modal-form {
-  padding: 72px 24px 0;
-}
-.form-field {
-  border: none;
-  padding: 0;
-  margin: 0 0 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-.form-input {
-  width: 100%;
-  height: 40px;
-  padding-left: 38px;
-}
-.form-textarea {
-  width: 100%;
-  height: 120px;
-  padding-top: 8px;
-  padding-left: 16px;
-}
-
-.name-label {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  position: relative;
-}
-.name-label > .name-icon {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-.name-icon {
-  fill: var(--main-title-color);
-}
-
-.btn-send {
-  width: 169px;
-  text-align: center;
-  padding: 16px 32px;
-}
 /* =========================================/MODAL================================== */
