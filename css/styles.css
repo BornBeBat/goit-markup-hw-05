@@ -593,4 +593,6 @@ img {
 .button-close:focus .icon {
   fill: var(--main-background-color);
 }
+.input-text {
+}
 /* =========================================/MODAL================================== */
