@@ -496,6 +496,7 @@ img {
 }
 .footer .form-icon {
   margin-left: 16px;
+  fill: currentColor;
 }
 /* ========================================/FOOTER============================ */
 
