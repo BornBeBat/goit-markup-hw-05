@@ -451,36 +451,48 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <form>
-          <label>Leave your contacts and we will call you back</label>
-          <fieldset>
-            <label>
+        <form class="modal-form">
+          <label class="modal-title">
+            Leave your contacts and we will call you back
+          </label>
+          <fieldset class="form-field modal-text">
+            <label class="name-label">
               Name
-              <input type="text" name="name" class="input-text" />
+              <svg class="name-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+              <input type="text" name="name" class="form-input" />
             </label>
-            <label>
-              phone
-              <input type="tel" name="phone" />
+            <label class="name-label">
+              Phone
+              <svg class="name-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+              <input type="tel" name="phone" class="form-input" />
             </label>
-            <label>
+            <label class="name-label">
               Email
-              <input type="email" name="email" />
+              <svg class="name-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+              <input type="email" name="email" class="form-input" />
             </label>
-            <label>
+            <label class="name-label">
               Comment
               <textarea
+                class="form-textarea modal-text"
                 name="comment"
                 rows="3"
                 placeholder="Text input"
               ></textarea>
             </label>
           </fieldset>
-          <label>
+          <label class="modal-text accept">
             <input type="checkbox" name="privacy-policy" />
             I accept the terms and conditions of the
             <a href="">Privacy Policy</a>
           </label>
-          <button type="submit">Send</button>
+          <button class="btn-send" type="submit">Send</button>
         </form>
       </div>
     </div>
