@@ -738,7 +738,7 @@ img {
   justify-content: center;
   fill: transparent;
 }
-.check:checked .form-span {
+.check:checked + .modal-label > .form-span {
   background-color: var(--hover-link);
   fill: var(--secondary-background-color);
   border: none;
