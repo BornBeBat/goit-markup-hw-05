@@ -750,8 +750,9 @@ img {
 .modal-form-btn {
   display: block;
   margin: 0 auto;
-  width: 169px;
+
   height: 56px;
+  min-width: 169px;
 
   font-size: 16px;
   font-weight: 500;
